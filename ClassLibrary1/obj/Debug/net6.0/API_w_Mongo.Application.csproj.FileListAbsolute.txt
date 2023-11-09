@@ -1,0 +1,16 @@
+D:\general_pro\API_pro\ClassLibrary1\bin\Debug\net6.0\API_w_Mongo.Application.deps.json
+D:\general_pro\API_pro\ClassLibrary1\bin\Debug\net6.0\API_w_Mongo.Application.dll
+D:\general_pro\API_pro\ClassLibrary1\bin\Debug\net6.0\API_w_Mongo.Application.pdb
+D:\general_pro\API_pro\ClassLibrary1\bin\Debug\net6.0\API_w_Mongo.Domain.dll
+D:\general_pro\API_pro\ClassLibrary1\bin\Debug\net6.0\API_w_Mongo.Domain.pdb
+D:\general_pro\API_pro\ClassLibrary1\obj\Debug\net6.0\API_w_Mongo.Application.csproj.AssemblyReference.cache
+D:\general_pro\API_pro\ClassLibrary1\obj\Debug\net6.0\API_w_Mongo.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\general_pro\API_pro\ClassLibrary1\obj\Debug\net6.0\API_w_Mongo.Application.AssemblyInfoInputs.cache
+D:\general_pro\API_pro\ClassLibrary1\obj\Debug\net6.0\API_w_Mongo.Application.AssemblyInfo.cs
+D:\general_pro\API_pro\ClassLibrary1\obj\Debug\net6.0\API_w_Mongo.Application.csproj.CoreCompileInputs.cache
+D:\general_pro\API_pro\ClassLibrary1\obj\Debug\net6.0\API_w_Mongo.Application.csproj.CopyComplete
+D:\general_pro\API_pro\ClassLibrary1\obj\Debug\net6.0\API_w_Mongo.Application.dll
+D:\general_pro\API_pro\ClassLibrary1\obj\Debug\net6.0\refint\API_w_Mongo.Application.dll
+D:\general_pro\API_pro\ClassLibrary1\obj\Debug\net6.0\API_w_Mongo.Application.pdb
+D:\general_pro\API_pro\ClassLibrary1\obj\Debug\net6.0\ref\API_w_Mongo.Application.dll
+D:\general_pro\API_pro\ClassLibrary1\bin\Debug\net6.0\Services\appsettings.json

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "V3015x0IwGLuDIoq/2s+cASXGUjnnnMXih4tCGfvUUWxp0w2dB+bbzrVFBIxm5qVYXGhxPsvo2ZHaOU2tbkQIQ==",
+  "success": true,
+  "projectFilePath": "D:\\general_pro\\API_pro\\ClassLibrary2\\API_w_Mongo.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\enisb\\.nuget\\packages\\mongodb.bson\\2.22.0\\mongodb.bson.2.22.0.nupkg.sha512",
+    "C:\\Users\\enisb\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\enisb\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
