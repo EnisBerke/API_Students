@@ -12,19 +12,25 @@ namespace API_Students_Informations.Controllers
     [ApiController]
     public class StudentsController : ControllerBase
     {
-        public IStudentServices studentService { get; }
+        public IStudentServices _studentService { get; }
 
         public StudentsController(IStudentServices studentService)
         {
-            this.studentService = studentService;
+            _studentService = studentService;
+        }
+
+        [HttpGet("Getbylist")]
+        public ActionResult<List<Student>> GetByList([FromQuery] List<string> student)
+        {
+            return _studentService.GetByList(student);
         }
 
         // GET: api/<ValuesController>
 
-        [HttpGet]
-        public ActionResult<List<Student>> Get(StudentServices studentServices)
+        [HttpGet("Get")]
+        public ActionResult<List<Student>> GetAll()
         {
-            return studentServices.Get();
+            return _studentService.GetAll();
         }
 
         // GET api/<ValuesController>/5
@@ -32,7 +38,7 @@ namespace API_Students_Informations.Controllers
         public ActionResult<Student> Get(string id)
         {
 
-            var student = studentService.Get(id);
+            var student = _studentService.Get(id);
 
             if (student == null)
             {
@@ -46,7 +52,7 @@ namespace API_Students_Informations.Controllers
         [HttpPost]
         public ActionResult<Student> Post([FromBody] Student student)
         {
-            studentService.Create(student);
+            _studentService.Create(student);
 
             return CreatedAtAction(nameof(Get), new { id = student.Id }, student);
         }
@@ -55,14 +61,14 @@ namespace API_Students_Informations.Controllers
         [HttpPut("{id}")]
         public ActionResult Put(string id, [FromBody] Student student)
         {
-            var existingStudent = studentService.Get(id);
+            var existingStudent = _studentService.Get(id);
 
             if (existingStudent == null)
             {
                 return NotFound($"Student with Id = {id} not found");
             }
 
-            studentService.Update(id, student);
+            _studentService.Update(id, student);
 
             return NoContent();
         }
@@ -71,14 +77,14 @@ namespace API_Students_Informations.Controllers
         [HttpDelete("{id}")]
         public ActionResult Delete(string id)
         {
-            var student = studentService.Get(id);
+            var student = _studentService.Get(id);
 
             if (student == null)
             {
                 return NotFound($"Student with Id = {id} not found");
             }
 
-            studentService.Remove(student.Id);
+            _studentService.Remove(student.Id);
 
             return Ok($"Student with Id = {id} deleted");
         }

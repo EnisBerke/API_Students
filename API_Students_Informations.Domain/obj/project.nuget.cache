@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kZbrPT8YubVfe4kMWgmx4LKMdYXwImwHvS5gyi926hIEKu4oqjVWvxfZNbK7M5VL6vOSKzXbQGQrZtjh3P5H2g==",
+  "dgSpecHash": "aZOh9RbxPGRtgCXFYEuZbiT59TZkjtXwCHnkciv4R4mZYmK/hARbZTGdtizXRKIVzKIOR7tJ74aUeKV51CmzIw==",
   "success": true,
-  "projectFilePath": "D:\\general_pro\\API_pro\\API_Students_Informations.Domain\\API_Students_Informations.Domain.csproj",
+  "projectFilePath": "D:\\general_pro\\API_Students\\API_Students_Informations.Domain\\API_Students_Informations.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\enisb\\.nuget\\packages\\mongodb.bson\\2.22.0\\mongodb.bson.2.22.0.nupkg.sha512",
     "C:\\Users\\enisb\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",

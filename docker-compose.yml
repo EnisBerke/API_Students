@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  api_w_mongo:
-    image: ${DOCKER_REGISTRY-}apiwmongo
+  api_students_informations:
+    image: ${DOCKER_REGISTRY-}apistudentsinformations
     build:
       context: .
-      dockerfile: WebApplication1/Dockerfile
+      dockerfile: API_Students_Informations/Dockerfile

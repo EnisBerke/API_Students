@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\general_pro\\API_pro\\API_Students_Informations.Application\\API_Students_Informations.Application.csproj": {}
+    "D:\\general_pro\\API_Students\\API_Students_Informations.Application\\API_Students_Informations.Application.csproj": {}
   },
   "projects": {
-    "D:\\general_pro\\API_pro\\API_Students_Informations.Application\\API_Students_Informations.Application.csproj": {
+    "D:\\general_pro\\API_Students\\API_Students_Informations.Application\\API_Students_Informations.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\general_pro\\API_pro\\API_Students_Informations.Application\\API_Students_Informations.Application.csproj",
+        "projectUniqueName": "D:\\general_pro\\API_Students\\API_Students_Informations.Application\\API_Students_Informations.Application.csproj",
         "projectName": "API_Students_Informations.Application",
-        "projectPath": "D:\\general_pro\\API_pro\\API_Students_Informations.Application\\API_Students_Informations.Application.csproj",
+        "projectPath": "D:\\general_pro\\API_Students\\API_Students_Informations.Application\\API_Students_Informations.Application.csproj",
         "packagesPath": "C:\\Users\\enisb\\.nuget\\packages\\",
-        "outputPath": "D:\\general_pro\\API_pro\\API_Students_Informations.Application\\obj\\",
+        "outputPath": "D:\\general_pro\\API_Students\\API_Students_Informations.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\enisb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\general_pro\\API_pro\\API_Students_Informations.Domain\\API_Students_Informations.Domain.csproj": {
-                "projectPath": "D:\\general_pro\\API_pro\\API_Students_Informations.Domain\\API_Students_Informations.Domain.csproj"
+              "D:\\general_pro\\API_Students\\API_Students_Informations.Domain\\API_Students_Informations.Domain.csproj": {
+                "projectPath": "D:\\general_pro\\API_Students\\API_Students_Informations.Domain\\API_Students_Informations.Domain.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\general_pro\\API_pro\\API_Students_Informations.Domain\\API_Students_Informations.Domain.csproj": {
+    "D:\\general_pro\\API_Students\\API_Students_Informations.Domain\\API_Students_Informations.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\general_pro\\API_pro\\API_Students_Informations.Domain\\API_Students_Informations.Domain.csproj",
+        "projectUniqueName": "D:\\general_pro\\API_Students\\API_Students_Informations.Domain\\API_Students_Informations.Domain.csproj",
         "projectName": "API_Students_Informations.Domain",
-        "projectPath": "D:\\general_pro\\API_pro\\API_Students_Informations.Domain\\API_Students_Informations.Domain.csproj",
+        "projectPath": "D:\\general_pro\\API_Students\\API_Students_Informations.Domain\\API_Students_Informations.Domain.csproj",
         "packagesPath": "C:\\Users\\enisb\\.nuget\\packages\\",
-        "outputPath": "D:\\general_pro\\API_pro\\API_Students_Informations.Domain\\obj\\",
+        "outputPath": "D:\\general_pro\\API_Students\\API_Students_Informations.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\enisb\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wdod/jFtjVon9bGvD2w5qbFnbWygb3tzwwUwfwUF/HY1p0AYYD7ez5vBDLwVN5ADBqTdAu+7B0NfPjK4bc/gGw==",
+  "dgSpecHash": "v7PMEFg+3cSVRVn1g6AmNQG2meVCMCXur72nnkuAxX1s0dDg76WfWqdjo4APsQY/F4MVn7/JWpnZHMroXmczQg==",
   "success": true,
-  "projectFilePath": "D:\\general_pro\\API_pro\\API_Students_Informations\\API_Students_Informations.csproj",
+  "projectFilePath": "D:\\general_pro\\API_Students\\API_Students_Informations\\API_Students_Informations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\enisb\\.nuget\\packages\\awssdk.core\\3.7.204.13\\awssdk.core.3.7.204.13.nupkg.sha512",
     "C:\\Users\\enisb\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.203.13\\awssdk.dynamodbv2.3.7.203.13.nupkg.sha512",

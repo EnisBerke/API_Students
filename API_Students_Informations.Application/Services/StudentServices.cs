@@ -29,7 +29,14 @@ namespace API_Students_Informations.Application.Services
             return student;
         }
 
-        public List<Student> Get()
+        public List<Student> GetByList(List<string> student)
+        {
+            var filter = Builders<Student>.Filter.In("Id", student);
+
+            return _students.Find(filter).ToList();
+        }
+
+        public List<Student> GetAll()
         {
             return _students.Find(student => true).ToList();
         }

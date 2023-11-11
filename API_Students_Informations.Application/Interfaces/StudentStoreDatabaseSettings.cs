@@ -13,7 +13,7 @@ namespace API_Students_Informations.Application.Interfaces
         public string StudentCoursesCollectionName { get; set; } = "apicollection";
 
 
-        public string ConnectionString { get; set; } = "mongodb+srv://enis:o9lsKMIbaqdLzPIh@apitest.6mfasrb.mongodb.net/";
+        public string ConnectionString { get; set; } = "mongodb+srv://enis:hN14LnhgtbxJi7lp@apitest.6mfasrb.mongodb.net/";
         
         public string DatabaseName { get; set; } = "apitest";
 

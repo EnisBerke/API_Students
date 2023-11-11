@@ -7,16 +7,18 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["WebApplication1/WebApplication1.csproj", "WebApplication1/"]
-RUN dotnet restore "WebApplication1/WebApplication1.csproj"
+COPY ["API_Students_Informations/API_Students_Informations.csproj", "API_Students_Informations/"]
+COPY ["API_Students_Informations.Application/API_Students_Informations.Application.csproj", "API_Students_Informations.Application/"]
+COPY ["API_Students_Informations.Domain/API_Students_Informations.Domain.csproj", "API_Students_Informations.Domain/"]
+RUN dotnet restore "API_Students_Informations/API_Students_Informations.csproj"
 COPY . .
-WORKDIR "/src/WebApplication1"
-RUN dotnet build "WebApplication1.csproj" -c Release -o /app/build
+WORKDIR "/src/API_Students_Informations"
+RUN dotnet build "API_Students_Informations.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "WebApplication1.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "API_Students_Informations.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "WebApplication1.dll"]
+ENTRYPOINT ["dotnet", "API_Students_Informations.dll"]

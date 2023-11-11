@@ -3,10 +3,10 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>4a7b5bf9-746b-4b9a-963d-70685d1a7401</ProjectGuid>
+    <ProjectGuid>e9cd910f-5828-4695-9bd4-0e4c1c998dc9</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
-    <DockerServiceName>api_w_mongo</DockerServiceName>
+    <DockerServiceName>api_students_informations</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">

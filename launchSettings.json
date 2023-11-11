@@ -4,7 +4,7 @@
       "commandName": "DockerCompose",
       "commandVersion": "1.0",
       "serviceActions": {
-        "api_w_mongo": "StartDebugging"
+        "api_students_informations": "StartDebugging"
       }
     }
   }

@@ -10,8 +10,9 @@ namespace API_Students_Informations.Applicaiton.Services
 {
     public interface IStudentServices
     {
-        List<Student> Get();
+        List<Student> GetAll();
         Student Get(string id);
+        List<Student> GetByList(List<string> student);
         Student Create(Student student);
 
         void Update(string id, Student student);

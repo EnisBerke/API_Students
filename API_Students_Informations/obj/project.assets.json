@@ -1391,11 +1391,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\general_pro\\API_pro\\API_Students_Informations\\API_Students_Informations.csproj",
+      "projectUniqueName": "D:\\general_pro\\API_Students\\API_Students_Informations\\API_Students_Informations.csproj",
       "projectName": "API_Students_Informations",
-      "projectPath": "D:\\general_pro\\API_pro\\API_Students_Informations\\API_Students_Informations.csproj",
+      "projectPath": "D:\\general_pro\\API_Students\\API_Students_Informations\\API_Students_Informations.csproj",
       "packagesPath": "C:\\Users\\enisb\\.nuget\\packages\\",
-      "outputPath": "D:\\general_pro\\API_pro\\API_Students_Informations\\obj\\",
+      "outputPath": "D:\\general_pro\\API_Students\\API_Students_Informations\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\enisb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1412,11 +1412,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\general_pro\\API_pro\\API_Students_Informations.Application\\API_Students_Informations.Application.csproj": {
-              "projectPath": "D:\\general_pro\\API_pro\\API_Students_Informations.Application\\API_Students_Informations.Application.csproj"
+            "D:\\general_pro\\API_Students\\API_Students_Informations.Application\\API_Students_Informations.Application.csproj": {
+              "projectPath": "D:\\general_pro\\API_Students\\API_Students_Informations.Application\\API_Students_Informations.Application.csproj"
             },
-            "D:\\general_pro\\API_pro\\API_Students_Informations.Domain\\API_Students_Informations.Domain.csproj": {
-              "projectPath": "D:\\general_pro\\API_pro\\API_Students_Informations.Domain\\API_Students_Informations.Domain.csproj"
+            "D:\\general_pro\\API_Students\\API_Students_Informations.Domain\\API_Students_Informations.Domain.csproj": {
+              "projectPath": "D:\\general_pro\\API_Students\\API_Students_Informations.Domain\\API_Students_Informations.Domain.csproj"
             }
           }
         }
