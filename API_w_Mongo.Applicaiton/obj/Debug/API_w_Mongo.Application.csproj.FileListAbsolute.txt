@@ -1,2 +1,0 @@
-D:\general_pro\API_pro\API_w_Mongo.Applicaiton\obj\Debug\API_w_Mongo.Application.csproj.AssemblyReference.cache
-D:\general_pro\API_pro\API_w_Mongo.Applicaiton\obj\Debug\API_w_Mongo.Application.csproj.CoreCompileInputs.cache
