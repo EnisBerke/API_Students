@@ -6,3 +6,5 @@ services:
     build:
       context: .
       dockerfile: API_Students_Informations/Dockerfile
+    ports:
+      - "5003:5003" 

@@ -2,14 +2,14 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
+EXPOSE 5003
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["API_Students_Informations/API_Students_Informations.csproj", "API_Students_Informations/"]
 COPY ["API_Students_Informations.Application/API_Students_Informations.Application.csproj", "API_Students_Informations.Application/"]
 COPY ["API_Students_Informations.Domain/API_Students_Informations.Domain.csproj", "API_Students_Informations.Domain/"]
+COPY ["API_Students_Informations.Repository/API_Students_Informations.Repository.csproj", "API_Students_Informations.Repository/"]
 RUN dotnet restore "API_Students_Informations/API_Students_Informations.csproj"
 COPY . .
 WORKDIR "/src/API_Students_Informations"

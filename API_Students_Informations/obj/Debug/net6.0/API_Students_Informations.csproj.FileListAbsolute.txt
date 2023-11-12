@@ -97,3 +97,4 @@ D:\general_pro\API_Students\API_Students_Informations\obj\Debug\net6.0\refint\AP
 D:\general_pro\API_Students\API_Students_Informations\obj\Debug\net6.0\API_Students_Informations.pdb
 D:\general_pro\API_Students\API_Students_Informations\obj\Debug\net6.0\API_Students_Informations.genruntimeconfig.cache
 D:\general_pro\API_Students\API_Students_Informations\obj\Debug\net6.0\ref\API_Students_Informations.dll
+D:\general_pro\API_Students\API_Students_Informations\obj\Debug\net6.0\API_Students_Informations.MvcApplicationPartsAssemblyInfo.cs
